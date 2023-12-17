@@ -2,4 +2,69 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  color: white;
+}
+
+body {
+  background-color: #222;
+}
+
+.container {
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  margin: 4rem 0;
+}
+
+.pagination button {
+  background-color: #333;
+  border: 0;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: #3338;
+  cursor: no-drop;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+}
+
+.search input {
+  margin: 2rem 0;
+  padding: 1rem 2rem;
+  border: 0;
+  outline: 0;
+  border-radius: 9rem;
+  max-width: 24rem;
+  width: 100%;
+  background-color: #333;
+  font-size: 1rem;
+}
+
+.pulse {
+  animation: thepulse 3s infinite;
+}
+
+@keyframes thepulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
