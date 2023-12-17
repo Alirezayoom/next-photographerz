@@ -62,7 +62,12 @@ export default function Photos() {
         {images.map((photo) => (
           <div key={photo._id} className={classes.card}>
             <div className={classes.photo}>
-              <Image src={photo.photo} alt="shot" fill />
+              <Image
+                src={photo.photo}
+                alt="nice shot"
+                width={320}
+                height={200}
+              />
             </div>
 
             <div className={classes.info}>
