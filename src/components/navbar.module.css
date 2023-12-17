@@ -1,0 +1,17 @@
+.navbar {
+  border-bottom: 1px solid #fff4;
+  margin-bottom: 2rem;
+}
+
+.navbar .container {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  gap: 2rem;
+}
