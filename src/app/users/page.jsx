@@ -25,7 +25,7 @@ export default function Users() {
         setTotalPages(data.meta.pageCount);
         setLoading(false);
       } catch (error) {
-        console.error("Error fetching users:", error);
+        // console.error("Error fetching users:", error);
         setLoading(false);
       }
     };

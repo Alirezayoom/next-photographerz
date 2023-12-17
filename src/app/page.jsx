@@ -25,7 +25,7 @@ export default function Photos() {
         setTotalPages(data.meta.pageCount);
         setLoading(false);
       } catch (error) {
-        console.error("Error fetching images:", error);
+        // console.error("Error fetching images:", error);
         setLoading(false);
       }
     };
