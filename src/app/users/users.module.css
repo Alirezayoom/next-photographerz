@@ -1,0 +1,51 @@
+.users {
+  max-width: 64rem;
+  margin: 3rem auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+}
+
+.user {
+  text-align: center;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 9rem;
+  overflow: hidden;
+  margin: 0 auto 1rem;
+  line-height: 0;
+  position: relative;
+}
+
+.avatar img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.username {
+  font-family: monospace;
+  background-color: #ddd;
+  width: min-content;
+  margin: 0 auto 0.5rem;
+  color: #222;
+  padding: 4px 8px;
+  border-radius: 19px;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.info {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  font-size: 1.25rem;
+  margin-bottom: 2px;
+}
+
+.email {
+  color: #fff8;
+  font-size: 0.875rem;
+}
