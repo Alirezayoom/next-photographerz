@@ -1,0 +1,54 @@
+.photos {
+  max-width: 64rem;
+  margin: 3rem auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.card {
+  background-color: #333;
+}
+
+.photo {
+  position: relative;
+  aspect-ratio: 16/10;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.photo img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.info {
+  padding: 0.725rem 1.25rem;
+}
+
+.name {
+  font-size: 1.25rem;
+  margin-bottom: 4px;
+}
+
+.ownerInfo {
+  display: flex;
+  gap: 5px;
+}
+
+.owner {
+  margin-bottom: 4px;
+}
+
+.publishedAt {
+  color: #eee;
+  font-size: 12px;
+  font-style: italic;
+  background-color: #666;
+  width: fit-content;
+  padding: 0 10px;
+  border-radius: 1rem;
+}
